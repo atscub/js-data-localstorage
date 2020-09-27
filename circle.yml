@@ -1,4 +1,7 @@
 general:
+  artifacts:
+    - "dist"
+    - "coverage"
   branches:
     ignore:
       - gh-pages
@@ -12,7 +15,3 @@ dependencies:
 test:
   override:
     - npm run ci
-general:
-  artifacts:
-    - "dist"
-    - "coverage"
